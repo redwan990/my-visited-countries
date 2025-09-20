@@ -28,7 +28,7 @@ const countries = countriesData.countries;
 // console.log(countries)
     return (
         <div>
-            <h2>my visited countries:{countries.length}</h2>
+            <h2>my visited countries: -{countries.length}</h2>
         <p>Total Country Visited: {visitedCountries.length}</p>
         
         <p>Total Visited Flags: {visitedFlags.length}</p>
